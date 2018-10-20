@@ -1,0 +1,5 @@
+{
+  "name": "hexo-theme-simple",
+  "version": "0.0.1",
+  "main": "gulpfile.js" // 压缩博客 html css js
+}

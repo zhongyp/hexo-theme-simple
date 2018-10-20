@@ -1,0 +1,36 @@
+.tag-button {
+  font-size: 12px;
+  line-height: 30px;
+  display: inline-block;
+  height: 30px;
+  margin: 5px;
+  padding: 0 12px;
+  color: @gray;
+  border-radius: 15px;
+  background: @bg-gray;
+  min-width: 50px;
+  text-align: center;
+  
+  a {
+    color: @gray;
+  }
+  &:hover {
+    color: @gray;
+    background: @bg-gray-hover;
+  }
+}
+.post-page {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: @post-width;
+  padding: 10px;
+  position: relative;
+  @media screen and (min-width: @sm-width) {
+    padding: 10px 50px;
+  }
+  // @media screen and (min-width: @post-width) {
+  //   border: 1px solid @border-dark-gray;
+  //   border-top: none;
+  //   box-shadow: 0 2px 3px rgba(32, 32, 32, .05);
+  // }
+}

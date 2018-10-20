@@ -1,0 +1,29 @@
+
+# html lang
+language: zh-Hans
+
+# main menu navigation
+menu:
+  home: /
+  tags: /tags
+  search: /search
+  about: /about
+  # archives: /archives
+
+# Miscelaneous
+favicon: /logo.png
+
+# stylesheets loaded in the <head>
+stylesheets:
+# - /css/normalize.css
+- //cdn.bootcss.com/pure/1.0.0/pure-min.css
+- /css/simple.css
+
+# scripts loaded in the end of the body
+scripts:
+#- //cdn.bootcss.com/zepto/1.2.0/zepto.min.js
+#- /js/microb.js
+
+# switch
+show_excerpt: true
+show_date: true

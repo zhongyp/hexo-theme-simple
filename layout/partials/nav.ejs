@@ -1,0 +1,33 @@
+<nav class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+  <ul class="pure-menu-list float-r clearfix">
+    <% if (is_post()) { %>
+      <li class="pure-menu-item toc-menu">
+        <a id="menu-main-post" class="pure-menu-link" href="javascript:;">
+          <img class="menu-icon" src="/logo.png" alt="MENU">
+        </a>
+      </li>
+    <% } else { %>
+      <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+        <a id="menu-main" class="pure-menu-link" href="javascript:;">
+          <img class="menu-icon" src="/logo.png" alt="MENU">
+        </a>
+        <ul class="pure-menu-children">
+        <% Object.keys(theme.menu).forEach(function(key) { %>
+          <% if ((is_home() && key==='home') || (is_archive() && key==='archives') || page.type === key) { %>
+            <li class="pure-menu-item actived"><a href="<%=theme.menu[key]%>" class="pure-menu-link"><%= __(key)%></a></li>
+          <% } else { %>
+            <li class="pure-menu-item"><a href="<%=theme.menu[key]%>" class="pure-menu-link"><%= __(key)%></a></li>
+          <% } %>  
+          <% }); %>
+      </ul>
+      </li>
+    <% } %>
+  </ul>  
+  <a class="pure-menu-heading" href="/">
+      <h1 class="title"><%=config.title%></h1>
+      <!-- <span><%=config.subtitle%></span> -->
+  </a>
+  <!-- <% if (is_post()) { %>
+  <img class="logo" id="logo" src="/logo.png" alt="logo">
+  <% } %> -->
+</nav>
