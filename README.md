@@ -6,7 +6,7 @@ This theme is based on [microb](https://github.com/microacup/hexo-theme-micorb),
 
 * add site count based on [busuanzi](http://ibruce.info/2015/04/04/busuanzi/) .
 
-* change the logo click event and css.
+* change the logo click event and css based on my ideas.
 
 ## Usage
 
