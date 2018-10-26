@@ -14,7 +14,7 @@ This theme is based on [microb](https://github.com/microacup/hexo-theme-micorb),
 
 * Execute ` hexo init blog_dir_name ` to create a blog dir.
 
-* Into blog dir and change the property of theme to `simple`.
+* Into blog root dir and change `_config.yml`'s property of theme to `simple`.
 
 * Finally,copy this theme to your blog's theme dir.
 
