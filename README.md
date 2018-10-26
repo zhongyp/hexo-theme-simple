@@ -24,6 +24,34 @@ This theme is based on [microb](https://github.com/microacup/hexo-theme-micorb),
 
 * [Hexo](https://github.com/hexojs/hexo)
 
+## Plugins
+
+hexo-baidu-url-submit		
+hexo-bunyan		
+hexo-deployer-git		
+hexo-deployer-heroku		
+hexo-deployer-openshift		
+hexo-deployer-rsync		
+hexo-front-matter		
+hexo-fs				
+hexo-generator-archive		
+hexo-generator-baidu-sitemap
+hexo-generator-category		
+hexo-generator-feed
+hexo-generator-index		
+hexo-generator-search		
+hexo-generator-sitemap
+hexo-generator-tag		
+hexo-i18n		
+hexo-log		
+hexo-pagination		
+hexo-renderer-ejs
+hexo-renderer-jade
+hexo-renderer-marked
+hexo-renderer-stylus
+hexo-server		
+hexo-util
+
 ## License
 
 MIT
