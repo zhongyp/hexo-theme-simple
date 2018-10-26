@@ -14,7 +14,7 @@ if (is_home()) pageTitle+= config.subtitle;
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#202020"/>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  
+
   <% if (page.tags && page.tags.length) { %>
     <meta name="keywords" content="<% page.tags.forEach(function(tag) { %><%= tag.name %>,<% }); %>" />
   <% } else { %>
@@ -26,7 +26,7 @@ if (is_home()) pageTitle+= config.subtitle;
   <% } else {  %>
     <meta name="description" content="<%= page.description || page.title || (config.title + ',' + config.subtitle) %>" />
   <% } %>
-  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <link rel="icon" type="image/x-icon" href="/logo.png">
   <title><%=pageTitle%></title>
   <% if (theme.stylesheets !== undefined && theme.stylesheets.length > 0) { %>
