@@ -235,7 +235,9 @@ body {
   height: 40px;
 }
 .home-menu .pure-menu-list .pure-menu-children {
-  border: 1px solid #999;
+  border: 1px solid #98959533;
+  border-radius: 5px;
+  left: 3px;
 }
 .home-menu .pure-menu-list .pure-menu-link {
   padding: 4px 15px;
@@ -849,3 +851,4 @@ code {
 }
 
 /*# sourceMappingURL=microb.css.map */
+

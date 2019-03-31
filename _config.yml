@@ -16,7 +16,8 @@ favicon: /logo.png
 # stylesheets loaded in the <head>
 stylesheets:
 # - /css/normalize.css
-- //cdn.bootcss.com/pure/1.0.0/pure-min.css
+#- //cdn.bootcss.com/pure/1.0.0/pure-min.css
+- /css/pure.min.css
 - /css/simple.css
 
 # scripts loaded in the end of the body
