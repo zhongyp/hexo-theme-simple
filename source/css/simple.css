@@ -2,7 +2,7 @@
   text-align: center !important;
 }
 * {
-  
+
 }
 *:before,
 *:after {
@@ -606,7 +606,7 @@ body {
     margin-left: 1050px;
     overflow-y: auto;
     border-radius: 4px;
-    background-color: #f0f8ff;
+    /*background-color: #f0f8ff;*/
   }
 }
 .toc-article ol,
@@ -851,4 +851,3 @@ code {
 }
 
 /*# sourceMappingURL=microb.css.map */
-
