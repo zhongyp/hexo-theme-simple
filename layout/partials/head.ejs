@@ -16,7 +16,7 @@ if (is_home()) pageTitle+= config.subtitle;
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="google-site-verification" content="9GY-OrjvdT8TkXuLJFSJcJqolHfXKJ5NVYKRUv8mCRM" />
   <% if (page.tags && page.tags.length) { %>
-    <meta name="keywords" content="<% page.tags.forEach(function(tag) { %><%= tag.name %>,<% }); %>" />
+    <meta name="keywords" content="<% page.tags.forEach(function(tag) { %><%= tag.name %>,<% }); %><%= page.title %>" />
   <% } else { %>
     <meta name="keywords" content="<%= config.keywords %>" />
   <% } %>
